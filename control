@@ -1,9 +1,9 @@
-Package: com.mattcmultimedia.clearonopen
-Name: ClearOnOpen
-Depends: mobilesubstrate, firmware (>= 6.0)
-Version: 3.0.2
+Package: com.ethanarbuckle.respringprogress
+Name: RespringProgress
+Depends: mobilesubstrate
+Version: 0.0.2
 Architecture: iphoneos-arm
-Description: Automatically clear Spotlight results
-Maintainer: Mordred666
-Author: Mordred666
+Description: Adds a progress bar under the Apple logo during resprings that tracks SpringBoards launch progress
+Maintainer: Ethan Arbuckle
+Author: Ethan Arbuckle
 Section: Tweaks
