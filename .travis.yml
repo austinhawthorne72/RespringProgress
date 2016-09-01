@@ -14,4 +14,4 @@ install: true
 script: make package
 
 after_success:
-    "curl --ftp-create-dirs -T ./debs/com.ethanarbuckle.respringprogress_*_iphoneos-arm.deb -u $FTP_USER:$FTP_PASSWORD ftp://ftp.drivehq.com/debs/"
+    "curl --ftp-create-dirs -T ./debs/*.deb -u $FTP_USER:$FTP_PASSWORD ftp://ftp.drivehq.com/debs/"
