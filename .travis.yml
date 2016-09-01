@@ -12,3 +12,6 @@ before_install:
 install: true
 
 script: make package
+
+after_success:
+#    "curl --ftp-create-dirs -T filename -u $FTP_USER:$FTP_PASSWORD ftp://ftp.drivehq.com/debs"
