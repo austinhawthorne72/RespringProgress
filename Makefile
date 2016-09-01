@@ -1,15 +1,7 @@
-DEBUG = 0
-RELEASE = 1
-PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
-
-ARCHS = armv7 arm64
 include theos/makefiles/common.mk
 
-TWEAK_NAME = ClearOnOpen
-ClearOnOpen_FILES = Tweak.xm
-ClearOnOpen_LDFLAGS += -Wl,-segalign,4000
-ClearOnOpen_CODESIGN_FLAGS = -S
-
+TWEAK_NAME = RespringProgress
+RespringProgress_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
